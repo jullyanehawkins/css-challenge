@@ -61,3 +61,88 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+html, body {
+	font-family: Courier;
+}
+
+header {
+	background-color: #303030;
+	color: #32cd32;
+}
+
+header h1 {
+	margin: 0 2rem 0 0;
+	display: inline-block;
+}
+
+.instructions-wrapper {
+	display: flex;
+	margin: 60px auto;
+	border: 6px solid black;
+}
+
+img[alt*="captain janeway"] {
+	flex: auto;
+	max-width: 250px;
+	align-self: start;
+}
+
+.about-me {
+	background-color: #0000FF;
+	color: #FFFFFF;
+}
+
+img[alt*="captain picard"] {
+	float: left;
+	border: #FFFFFF;
+	margin: 20px;
+}
+
+.beauty-rest {
+	font-style: italic;
+	font-weight: bold;
+	color: #FFFF00;
+}
+
+.skillz-header {
+	text-align: right;
+}
+
+
+th, td {
+	background-color: #000000;
+	border: 1px #FFFFFF;
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+table {
+	width: 80%;
+	margin: 10px;
+	color: #32cd32;
+}
+
+.form-wrapper {
+	background-color: #003300;
+	border: 20px #000000;
+	color: #32cd32;
+}
+
+.form-wrapper label, input, textarea {
+	margin-bottom: 10px;
+}
+
+.form-wrapper input, textarea {
+	width: 30%;
+}
+
+.form-wrapper button {
+	background-color: #32cd32;
+	color: #000000;
+}
+
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
